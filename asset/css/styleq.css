@@ -92,7 +92,7 @@ a:hover{
   transition: var(--transition);
 }
 .btn:hover{
-  background-color: var(--color-dark-variant);
+  background-color: transparent;
   color:var(--color-white)
 }
 .btn-dark{
@@ -203,7 +203,7 @@ nav a{
 }
 #home2{
   padding-top: 10rem;
-  background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(../img/b1.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(../../admin/img/b1.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -275,16 +275,16 @@ nav a{
  font-weight: bold;
 }
 
-/* ABOUT */
 
+
+/* ABOUT */
 .about-container{
   display: grid;
   grid-template-columns: 38% auto;
   gap: 4rem;
   align-items: center;
 }
-.about-left{   
-  box-shadow: 5px 5px 3px #999;
+.about-left{ 
   border-radius:5%;
   overflow: hidden;
   transition: 1s all 2s ease-in-out;
